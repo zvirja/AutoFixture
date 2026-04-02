@@ -8,7 +8,6 @@ public class DependencyConstraints
 {
     [Theory]
     [InlineData("Moq")]
-    [InlineData("Rhino.Mocks")]
     [InlineData("xunit")]
     [InlineData("xunit.extensions")]
     public void AutoFixtureDoesNotReference(string assemblyName)
@@ -22,7 +21,6 @@ public class DependencyConstraints
 
     [Theory]
     [InlineData("Moq")]
-    [InlineData("Rhino.Mocks")]
     public void AutoFixtureUnitTestsDoNotReference(string assemblyName)
     {
         // Arrange

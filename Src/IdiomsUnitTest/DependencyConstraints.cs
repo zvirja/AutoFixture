@@ -7,7 +7,6 @@ public class DependencyConstraints
 {
     [Theory]
     [InlineData("Moq")]
-    [InlineData("Rhino.Mocks")]
     [InlineData("xunit")]
     [InlineData("xunit.extensions")]
     public void IdiomsDoesNotReference(string assemblyName)
@@ -21,7 +20,6 @@ public class DependencyConstraints
 
     [Theory]
     [InlineData("Moq")]
-    [InlineData("Rhino.Mocks")]
     public void IdiomsUnitTestsDoNotReference(string assemblyName)
     {
         // Arrange

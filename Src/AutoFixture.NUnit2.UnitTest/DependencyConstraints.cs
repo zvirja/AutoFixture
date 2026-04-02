@@ -7,7 +7,6 @@ namespace AutoFixture.NUnit2.UnitTest;
 public class DependencyConstraints
 {
     [TestCase("Moq")]
-    [TestCase("Rhino.Mocks")]
     public void AutoFixtureXunitDoesNotReference(string assemblyName)
     {
         // Arrange
@@ -18,7 +17,6 @@ public class DependencyConstraints
     }
 
     [TestCase("Moq")]
-    [TestCase("Rhino.Mocks")]
     public void AutoFixtureXunitUnitTestsDoNotReference(string assemblyName)
     {
         // Arrange
