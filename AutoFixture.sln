@@ -22,10 +22,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFixture.NUnit3", "Src\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFixture.NUnit3.UnitTest", "Src\AutoFixture.NUnit3.UnitTest\AutoFixture.NUnit3.UnitTest.csproj", "{1E512431-ADC0-4218-873E-E4DF40C97268}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFixture.xUnit", "Src\AutoFixture.xUnit\AutoFixture.xUnit.csproj", "{266B9F0E-28E5-47CA-9816-ACB6737E7E4D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFixture.xUnit.UnitTest", "Src\AutoFixture.xUnit.UnitTest\AutoFixture.xUnit.UnitTest.csproj", "{14FADDF9-F0D2-4BD4-B285-FDDAB5762CC4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFixture.xUnit2", "Src\AutoFixture.xUnit2\AutoFixture.xUnit2.csproj", "{240605C0-84DC-4B01-A79E-1123D20BB25D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFixture.xUnit2.UnitTest", "Src\AutoFixture.xUnit2.UnitTest\AutoFixture.xUnit2.UnitTest.csproj", "{67D81234-8589-4E11-85BC-C0C49399A289}"
@@ -159,18 +155,6 @@ Global
 		{1E512431-ADC0-4218-873E-E4DF40C97268}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E512431-ADC0-4218-873E-E4DF40C97268}.Verify|Any CPU.ActiveCfg = Verify|Any CPU
 		{1E512431-ADC0-4218-873E-E4DF40C97268}.Verify|Any CPU.Build.0 = Verify|Any CPU
-		{266B9F0E-28E5-47CA-9816-ACB6737E7E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{266B9F0E-28E5-47CA-9816-ACB6737E7E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{266B9F0E-28E5-47CA-9816-ACB6737E7E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{266B9F0E-28E5-47CA-9816-ACB6737E7E4D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{266B9F0E-28E5-47CA-9816-ACB6737E7E4D}.Verify|Any CPU.ActiveCfg = Verify|Any CPU
-		{266B9F0E-28E5-47CA-9816-ACB6737E7E4D}.Verify|Any CPU.Build.0 = Verify|Any CPU
-		{14FADDF9-F0D2-4BD4-B285-FDDAB5762CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14FADDF9-F0D2-4BD4-B285-FDDAB5762CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14FADDF9-F0D2-4BD4-B285-FDDAB5762CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14FADDF9-F0D2-4BD4-B285-FDDAB5762CC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14FADDF9-F0D2-4BD4-B285-FDDAB5762CC4}.Verify|Any CPU.ActiveCfg = Verify|Any CPU
-		{14FADDF9-F0D2-4BD4-B285-FDDAB5762CC4}.Verify|Any CPU.Build.0 = Verify|Any CPU
 		{240605C0-84DC-4B01-A79E-1123D20BB25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{240605C0-84DC-4B01-A79E-1123D20BB25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{240605C0-84DC-4B01-A79E-1123D20BB25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
